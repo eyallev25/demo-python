@@ -6,7 +6,6 @@ authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-kobura = {git = "ssh://git@bitbucket.org/cyberarkhexagon/isf-shared.git"}
 elasticsearch = "^7.16.1"
 requests = "^2.26.0"
 requests-aws4auth = "^1.1.1"

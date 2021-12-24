@@ -1,7 +1,8 @@
 import requests
 import json
 from elasticsearch import Elasticsearch
-from kobura.elasticsearch.es_handler import ElasticsearchHandler
+
+# from kobura.elasticsearch.es_handler import ElasticsearchHandler
 
 # es = Elasticsearch([{"host": "localhost", "port": 9200}])
 # es.index(
