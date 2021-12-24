@@ -1,14 +1,21 @@
 [tool.poetry]
 name = "demo-python"
-version = "0.2.0"
+version = "0.3.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+kobura = {git = "ssh://git@bitbucket.org/cyberarkhexagon/isf-shared.git"}
+elasticsearch = "^7.16.1"
+requests = "^2.26.0"
+requests-aws4auth = "^1.1.1"
+boto3 = "^1.20.26"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+black = "^21.12b0"
+flake8 = "^4.0.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
